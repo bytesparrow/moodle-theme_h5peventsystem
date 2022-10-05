@@ -1,0 +1,19 @@
+{
+    "name": "null/h5peventsystem",
+    "description": "H5PEventSystem is a theme that provides the possibility to attach events to h5p-content",
+    "type": "moodle-theme",
+    "keywords": ["theme", "moodle", "html"],
+    "license": "GPLv3",
+    "version": "dev-master",
+    "authors": [
+        {
+            "name": "Bernhard Strehl"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "composer/installers": "~1.0"
+    }
+    
+}
+
