@@ -17,6 +17,9 @@ You can now fire events like this:
           {detail: { type: "h5p", object: "20",  position:89, time: new Date() }, } );
     window.dispatchEvent(event);
 
+## About
+Ath the moment it's still something like pre-alpha and more or less a prove of concept. But it will be extended in the near future.
+
 ## Requirements
 
 This theme requires Moodle 4.0+

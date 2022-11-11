@@ -21,9 +21,9 @@
  * @copyright  2022 Bernhard Strehl <moodle@software.bernhard-strehl.de>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+defined('MOODLE_INTERNAL') || die();
 $THEME->name = 'h5peventsystem';
 
-//
 $THEME->doctype = 'html5';
 $THEME->parents = ['boost'];
 $THEME->sheets = ['custom'];
@@ -34,7 +34,7 @@ $THEME->editor_sheets = [];
 $THEME->hidefromselector = true;
 
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
-$THEME->requiredblocks = ''; #wichtig, sonst geht h5p nicht
+$THEME->requiredblocks = ''; // Wichtig, sonst geht h5p nicht.
 $THEME->csspostprocess = 'theme_h5peventsystem_process_css';
 // By default, all boost theme do not need their titles displayed.
 $THEME->activityheaderconfig = [

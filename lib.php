@@ -21,7 +21,7 @@
  * @copyright  2022 Bernhard Strehl <moodle@software.bernhard-strehl.de>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-// This line protects the file from being accessed by a URL directly.                                                               
-defined('MOODLE_INTERNAL') || die();
+// This line protects the file from being accessed by a URL directly.
+
 
 // We will add callbacks here as we add features to our theme.

@@ -4,12 +4,16 @@
     "type": "moodle-theme",
     "keywords": ["theme", "moodle", "html"],
     "license": "GPLv3",
-    "version": "dev-master",
+    "version": "v1.0-alpha",
     "authors": [
         {
-            "name": "Bernhard Strehl"
+            "name": "Bernhard Strehl",
+            "role": "Developer"
         }
     ],
+    "support": {
+        "email": "moodle@software.bernhard-strehl.de"
+    },
     "require": {
         "php": "^7.4 || ^8.0",
         "composer/installers": "~2.2",
