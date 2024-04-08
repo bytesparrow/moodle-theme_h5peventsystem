@@ -1,18 +1,20 @@
 {
-    "name": "null/h5peventsystem",
+    "name": "bytesparrow/h5peventsystem",
     "description": "H5PEventSystem is a theme that provides the possibility to attach events to h5p-content",
     "type": "moodle-theme",
     "keywords": ["theme", "moodle", "html"],
     "license": "GPLv3",
-    "version": "v1.0-alpha1",
+    "version": "v1.0-alpha2",
     "authors": [
         {
             "name": "Bernhard Strehl",
+            "email": "moodle@bytesparrow.de",
+            "homepage": "https://www.bytesparrow.de",
             "role": "Developer"
         }
     ],
     "support": {
-        "email": "moodle@software.bernhard-strehl.de"
+        "email": "moodle@bytesparrow.de"
     },
     "require": {
         "php": "^7.4 || ^8.0",
