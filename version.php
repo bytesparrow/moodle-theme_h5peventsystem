@@ -16,8 +16,9 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version   = 2022110700;
+$plugin->version   = 2024041700;
 $plugin->requires  = 2022041900;
+$plugin->supported = [400, 403];
 $plugin->component = 'theme_h5peventsystem';
 
-$plugin->dependencies = ['theme_boost' => 2020060900];
+$plugin->dependencies = ['theme_boost' => 2023042400];

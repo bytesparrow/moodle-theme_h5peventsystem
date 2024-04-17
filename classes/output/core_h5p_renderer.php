@@ -46,7 +46,7 @@ class core_h5p_renderer extends \core_h5p\output\renderer {
         ) {
             $styles[] = (object) array(
                 'path'    => $CFG->httpswwwroot . '/theme/h5peventsystem/style/custom.css',
-                'version' => '?ver=0.0.1',
+                'version' => '?ver=0.0.2',
             );
         }
     }
@@ -68,7 +68,7 @@ class core_h5p_renderer extends \core_h5p\output\renderer {
             $includefile = ($embedtype === 'editor' ? 'customEditor.js' : 'custom.js');
             $scripts[] = (object) array(
                 'path'    => $CFG->httpswwwroot . '/theme/h5peventsystem/js/' . $includefile,
-                'version' => '?ver=0.0.1',
+                'version' => '?ver=0.0.2',
             );
         }
         // Hier kommt der eventlistener für video,audio.
@@ -83,7 +83,7 @@ class core_h5p_renderer extends \core_h5p\output\renderer {
             if ($embedtype != "editor") {
                 $scripts[] = (object) array(
                     'path'    => $CFG->httpswwwroot . '/theme/h5peventsystem/js/h5p_media_goto_eventlistener.js',
-                    'version' => '?ver=0.0.1',
+                    'version' => '?ver=0.0.2',
                 );
             }
         }

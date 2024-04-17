@@ -4,7 +4,8 @@
     "type": "moodle-theme",
     "keywords": ["theme", "moodle", "html"],
     "license": "GPLv3",
-    "version": "v1.0-alpha2",
+    "version": "v1.0-alpha3",
+    "stability": "alpha",
     "authors": [
         {
             "name": "Bernhard Strehl",

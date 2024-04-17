@@ -13,7 +13,7 @@ console.log("Hello, this is h5p_media_goto_eventlistener.js!");
         $(window.top).on("media_goto", function (e) {
             console.debug("in h5peventsystem, event:");
             console.debug(e);
-            //console.debug("Es gibt X H5p instances " + H5P.instances.length);
+            console.debug("Es gibt X H5p instances " + H5P.instances.length);
 
             //da h5p-instances immer in einem iframe sind, gibt es immer nur eine.
             var h5pinstance = H5P.instances[0];
@@ -43,7 +43,10 @@ console.log("Hello, this is h5p_media_goto_eventlistener.js!");
                             alert("unsupported type:" + h5pinstance.libraryInfo.machineName + "in h5p_media_goto_eventlistener.js");
                             break;
                     }
-                } //else: nothing to do
+                } else
+                {
+                    console.debug ("You are requesting a manipulation of object "+evt.object+" , but I only have the object "+h5pinstance.contentId)
+                }
 
 
             }

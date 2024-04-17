@@ -1,13 +1,14 @@
 console.log("Hello, this is custom.js!");
 (function ($) {
   $(document).ready(function () {
-
+    return; //hier kommt lauter spaß zum debuggen
+    //ja, das funktioniert.
     setTimeout(function () {
       $('.h5p-control.h5p-playbackRate').css('background', 'green');
 
     }, 5000);
 
-    return; //hier kommt lauter spaß zum debuggen
+
     H5P.externalDispatcher.on('*', function(event){console.debug("H5P-Event");
      console.debug(event)});
 
