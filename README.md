@@ -13,11 +13,12 @@ This theme is experimental.
 ## Usage
 
 You can now fire events like this:
-   ``` var event = new CustomEvent('media_goto',  
+   ```
+   var event = new CustomEvent('media_goto',  
           {detail: { type: "h5p", object: "20",  position:89, time: new Date() }, } );
     window.dispatchEvent(event);
  ```
-(the object, "20", in this case must be your own object-ID.)
+(the object - "20" in this case - must be your own H5P-Content-ID.)
 
 ## About
 At the moment it's still something like pre-alpha and more or less a prove of concept. But it will be extended in the near future.
